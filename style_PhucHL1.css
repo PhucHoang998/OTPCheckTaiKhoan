@@ -1,1 +1,82 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/* đây là link ảnh để truy cập : https://cdn.shopify.com/s/files/1/0248/2598/7134/t/3/assets/OTPCoffeeBlackcurrantCacaoNibsBG-1646687101367-1647401608148-1647471492031.webp?irclickid=SNwx6N2%3AjxyPUoExSBVnjzOqUkFwK80uLX383U0&irgwc=1&partner=123201&affpt=excluded&utm_channel=Affiliates&utm_source=123201-impact&utm_medium=cpa
+/* */ thiết kế bởi phuchoang998-FComplex */
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0248/2598/7134/t/3/assets/OTPCoffeeBlackcurrantCacaoNibsBG-1646687101367-1647401608148-1647471492031.webp?irclickid=SNwx6N2%3AjxyPUoExSBVnjzOqUkFwK80uLX383U0&irgwc=1&partner=123201&affpt=excluded&utm_channel=Affiliates&utm_source=123201-impact&utm_medium=cpa);
+    background-size: cover;
+    height: 100vh;
+}   
+
+.otp-card{
+    text-align: center;
+    /* background-image: url(https://d3hr4eej8cfgwy.cloudfront.net/finan-prd/cf8e6e6d-19dc-4fa1-9eb0-9555b7c026de/image/0136c220-6275-4bb0-bc3e-60338dab0916.png); */
+    /* background: white; */
+    /* background-image: url(https://thumbs.dreamstime.com/b/silver-foil-texture-background-abstract-silver-background-silver-foil-texture-background-abstract-silver-background-web-design-180626604.jpg); */
+    border-radius: 15px;
+    padding:  35px;
+    box-shadow: 0 10px 40px -20px black;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.otp-card-inputs{
+    margin: 30px 0;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(5, auto);
+    
+}
+
+.otp-card-inputs input{
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.otp-card-inputs :focus{
+    outline: 2px solid rgb(132, 0, 255);
+    border-color: transparent;
+}
+
+.otp-card button{
+    background-color: rgb(255, 0, 0); 
+    border: none;
+    padding: 15px 50px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.otp-card button:hover{
+    opacity: .9;
+}
+
+.otp-card button[disabled]{
+    opacity: .6;
+    cursor: default;
+}
+
+.text-thiet-ke{
+    font-size: 14px;
+}
